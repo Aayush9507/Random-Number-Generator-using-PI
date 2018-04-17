@@ -6,13 +6,13 @@ Using values at indices of Pi and current Date/Time a 4-Digit random number is g
 In code_generator.py a method that will return a 4 digit random code.
 Calculation of the code as the nth digit in pi based on the following 4 values:
 
-1.Sum of the YY + DD + MM of “today’s” date (n_1)
+1. Sum of the YY + DD + MM of “today’s” date (n_1)
 
-2.Sum of the HH + MM + SS of the “current” time (n_2)
+2. Sum of the HH + MM + SS of the “current” time (n_2)
 
-3.Sum of the first 5 digits (rounded) of the decimal portion of the seconds value from n_2 (n_3)
+3. Sum of the first 5 digits (rounded) of the decimal portion of the seconds value from n_2 (n_3)
 
-(n_1 + n_2 + n_3) mod 7 (n_4)
+   (n_1 + n_2 + n_3) mod 7 (n_4)
 
 Clarification: nth value of pi indexed at zero from left to right.  i.e. n = 4 => 3.14159... => 5
 
